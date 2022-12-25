@@ -10,12 +10,8 @@ li {
   padding: 0 0px;
 }
 
-body {
-  font-size: 15px;
-  font-weight: 400;
-  color:rgb(255, 0, 0);
-  background-color: rgb(255, 0, 64);
-  min-width: 320px;
+.body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -52,7 +48,11 @@ body {
   transform: scale(1) ;
 }
 
-
+.header-message {
+  display: flex;
+  padding: 50px;
+margin-left: -55px;
+}
 
 .container {
   margin-bottom: 0px;
@@ -87,8 +87,3 @@ body {
 .com {
   padding: 20px 0;
 }
-
-.h2 {
-
-}
-
