@@ -67,12 +67,22 @@
             <h2 class=" header-message">Вход в систему</h2>
           <form>
             <div class="mb-3 col-lg-6">
-              <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label>
-              <input type="email" class="form-control" id="exampleInputEmail1">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="email@example.com" value="" required>
+                <label for="floatingInput">Почта</label>
+              <div class="invalid-feedback">
+                Введите коректный адрес почты!
+              </div>
+              </div>
             </div>
             <div class="mb-3 col-lg-6">
-              <label for="exampleInputPassword1" class="form-label" >Введите Пароль</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelpBlock">
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="myInput" placeholder="Введите пароль" value="" required>
+                <label for="floatingPassword">Введите пароль</label>
+                <div class="invalid-feedback">
+                  Пожалуйста, введите пароль!
+                </div>
+              </div>
             </div>
             <button type="submit" class="btn btn-primary">Войти</button>
           </form>

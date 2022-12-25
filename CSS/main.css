@@ -1,21 +1,15 @@
 html {
   font-size: 20px;
-
 }
-
 .navbar-brand img {
   width: 170px;
 }
 li {
   padding: 0 0px;
 }
-
 .body {
   font-family: 'Montserrat', sans-serif;
 }
-
-
-
 .navbar-collapse a::after {
   content: '';
   display: block;
@@ -25,15 +19,12 @@ li {
   transition: all .3s;
   transform: scale(0);
 }
-
 .navbar-collapse li a:hover::after {
   transform: scale(1) ;
 }
-
 .ms-1 {
   padding: 20px;
 }
-
 .ms-1 a::after {
   content: '';
   display: block;
@@ -43,47 +34,36 @@ li {
   transition: all .3s;
   transform: scale(0);
 }
-
 .ms-1 a:hover::after {
   transform: scale(1) ;
 }
-
 .header-message {
   display: flex;
   padding: 50px;
 margin-left: -55px;
 }
-
 .container {
   margin-bottom: 0px;
 }
-
 .dropdown {
   width: 100px;
 }
-
 .nav-item {
   font-size: 25px;
   margin-left: 5px;
-
 }
-
 .list-unstyled {
   font-size: 25px;
 
 }
-
 .container1 {
   width: 170px;
 }
-
 .form-group {
   padding: 5px;
   margin-left: 630px;
   width: 576px;
 }
-
-
 .com {
   padding: 20px 0;
 }
